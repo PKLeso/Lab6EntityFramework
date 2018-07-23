@@ -53,6 +53,14 @@
     <Compile Include="Migrations\201807200927538_CreatedDelegate.Designer.cs">
       <DependentUpon>201807200927538_CreatedDelegate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201807221519099_DatabaseAltered.cs" />
+    <Compile Include="Migrations\201807221519099_DatabaseAltered.Designer.cs">
+      <DependentUpon>201807221519099_DatabaseAltered.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201807221711509_DietaryDescriptionChanged.cs" />
+    <Compile Include="Migrations\201807221711509_DietaryDescriptionChanged.Designer.cs">
+      <DependentUpon>201807221711509_DietaryDescriptionChanged.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Course.cs" />
     <Compile Include="Models\Delegate.cs" />
@@ -71,6 +79,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201807200927538_CreatedDelegate.resx">
       <DependentUpon>201807200927538_CreatedDelegate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807221519099_DatabaseAltered.resx">
+      <DependentUpon>201807221519099_DatabaseAltered.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807221711509_DietaryDescriptionChanged.resx">
+      <DependentUpon>201807221711509_DietaryDescriptionChanged.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -15,6 +15,7 @@ namespace Lab6EntityFramework.Models
         public string Seats { get; set; }
         public DateTime? RegistrationEndDate { get; set; }
         public float Cost { get; set; }
+        public int CourseID { get; set; }
 
         public List<Course> Courses { get; set; }
     }

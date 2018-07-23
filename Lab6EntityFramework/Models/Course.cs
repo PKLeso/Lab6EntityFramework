@@ -16,7 +16,6 @@ namespace Lab6EntityFramework.Models
         public DateTime? DateModified { get; set; }
         public string CreatedBy { get; set; }
         public string ModifiedBy { get; set; }
-        public int TrainingID { get; set; }
 
         public Training Training { get; set; }
     }

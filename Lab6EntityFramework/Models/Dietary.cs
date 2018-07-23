@@ -9,7 +9,8 @@ namespace Lab6EntityFramework.Models
     class Dietary
     {
         public int DietaryID { get; set; }
-        public int Description { get; set; }
+        
+        public string Description { get; set; }
 
         public List<Delegate> Delegates { get; set; }
     }
